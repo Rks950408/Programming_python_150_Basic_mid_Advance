@@ -1,0 +1,263 @@
+Sure! Here's a collection of 150 SQL query questions that range from basic to advanced levels. I'll also include a sample schema with data for you to practice these queries.
+
+### **Sample Tables**
+
+Let's assume we have the following three tables for this exercise:
+
+#### **1. Employees Table**
+| EmpID | EmpName      | Department  | Salary | HireDate   |
+|-------|--------------|-------------|--------|------------|
+| 1     | Alice        | HR          | 5000   | 2019-01-10 |
+| 2     | Bob          | IT          | 6000   | 2018-05-14 |
+| 3     | Charlie      | Finance     | 7000   | 2017-09-22 |
+| 4     | David        | IT          | 6500   | 2020-03-01 |
+| 5     | Eva          | HR          | 5500   | 2021-11-25 |
+| 6     | Frank        | Finance     | 7500   | 2016-02-17 |
+
+#### **2. Projects Table**
+| ProjectID | ProjectName | Department  |
+|-----------|-------------|-------------|
+| 1         | Project A   | HR          |
+| 2         | Project B   | IT          |
+| 3         | Project C   | Finance     |
+| 4         | Project D   | IT          |
+| 5         | Project E   | HR          |
+
+#### **3. Salaries Table**
+| EmpID | Salary    | Bonus |
+|-------|-----------|-------|
+| 1     | 5000      | 500   |
+| 2     | 6000      | 600   |
+| 3     | 7000      | 700   |
+| 4     | 6500      | 650   |
+| 5     | 5500      | 550   |
+| 6     | 7500      | 750   |
+
+---
+
+### **Basic Level Questions**
+
+1. **Retrieve all employees' names and departments.**
+2. **Find the salary of employee Alice.**
+3. **List all employees who are in the IT department.**
+4. **Find the total number of employees in the HR department.**
+5. **Retrieve the department and salary of the employee with the highest salary.**
+6. **Find employees hired after 2020.**
+7. **Get a list of all employees and their hiring dates in descending order.**
+8. **List all projects from the IT department.**
+9. **Find all employees who have a bonus greater than 500.**
+10. **Get the names and hire dates of all employees, ordered by hire date.**
+
+---
+
+### **Intermediate Level Questions**
+
+11. **Count the number of employees in each department.**
+12. **Retrieve employees' names and salaries where salary is above 6000.**
+13. **Find all employees who are part of Project A and Project B.**
+14. **Retrieve the department names and the total salary for each department.**
+15. **List employees who have been hired after 2019 and are in the IT department.**
+16. **Find the average salary of employees in the Finance department.**
+17. **Retrieve employee names and salaries, where the salary is not null.**
+18. **Find the employee(s) with the second-highest salary.**
+19. **Retrieve all employees and the project(s) they are working on.**
+20. **List employees who are not assigned to any project.**
+
+---
+
+### **Join-Based Questions (INNER, LEFT, RIGHT, FULL OUTER)**
+
+21. **Join Employees and Projects tables on the Department and retrieve employee names and project names.**
+22. **Get a list of employees and their bonuses, where the employee has a bonus.**
+23. **Perform a LEFT JOIN between the Employees and Projects table to show all employees and the projects they are associated with.**
+24. **Find the employees who do not have a corresponding record in the Salaries table.**
+25. **Join all three tables (Employees, Projects, Salaries) and retrieve employee names, their department, salary, and bonus.**
+26. **Retrieve all projects with employee names (using JOIN).**
+27. **Find all employees in the HR department who are not associated with any project (using LEFT JOIN).**
+28. **Get the names of employees and the projects they are working on, including employees who are not assigned to a project (FULL OUTER JOIN).**
+29. **Show the department and the average salary of employees using a JOIN between Employees and Salaries tables.**
+30. **Show the names of employees working in 'Project C' using a JOIN with the Projects table.**
+
+---
+
+### **Group By and Aggregate Functions**
+
+31. **Group employees by department and calculate the total salary for each department.**
+32. **Group employees by department and show the highest salary in each department.**
+33. **Find the average salary of employees in each department using GROUP BY.**
+34. **Count how many employees exist in each department.**
+35. **Show the total bonus payout in each department (using GROUP BY).**
+36. **Retrieve the employee with the minimum salary in each department.**
+37. **Show the department name and the number of employees in each department.**
+38. **Find the average salary for employees hired after 2019.**
+39. **List employees and their average salary per department.**
+40. **Find the total salary and total bonus of employees in the Finance department.**
+
+---
+
+### **Subqueries**
+
+41. **Write a query to find employees who earn more than the average salary.**
+42. **Retrieve the names of employees who work on 'Project A' using a subquery.**
+43. **Find employees whose salary is above the average salary of their department.**
+44. **Find employees who do not have a project using a subquery.**
+45. **Show the names of employees who earn less than the employee with the highest salary.**
+46. **Find the department(s) that have the highest average salary.**
+47. **List employees who earn more than the average salary in their department using a correlated subquery.**
+48. **Get the names of employees who do not have a salary greater than the average salary across all employees.**
+49. **Find employees who have a salary greater than the maximum salary of employees in the HR department.**
+50. **List employees whose salary is greater than the salary of employee Alice.**
+
+---
+
+### **Advanced Level Questions**
+
+51. **Use a CTE (Common Table Expression) to find the second-highest salary.**
+52. **Write a query using a subquery to retrieve employees who earn more than all employees in the HR department.**
+53. **Use the RANK() function to rank employees based on their salary in descending order.**
+54. **Find all employees who have been assigned to more than one project.**
+55. **Write a query using a window function to find the cumulative salary of employees ordered by their hire date.**
+56. **Show the department with the highest average salary using a subquery.**
+57. **Write a query to return the employee who was hired last (using a subquery).**
+58. **Find employees whose salary is greater than the salary of all other employees in their department (correlated subquery).**
+59. **Write a query to return the employee(s) who have worked on all projects (using EXISTS).**
+60. **Find the total number of projects assigned to each employee using a subquery.**
+
+---
+
+### **Join-Based Questions (with Aggregation)**
+
+61. **Join Employees and Salaries tables and show total salary and bonus for each employee.**
+62. **List the projects and the number of employees assigned to each project.**
+63. **Retrieve the department and the total salary for each department using GROUP BY with a JOIN.**
+64. **Write a query to find the average salary of employees in each department, including those without a salary record.**
+65. **Show the employee names who have been assigned to at least two projects.**
+66. **List the names of employees who work in both Project A and Project B.**
+67. **Find the number of employees in each department who have a salary greater than 6000.**
+68. **Retrieve all projects and their associated employees (using JOIN and GROUP BY).**
+69. **Find the total number of projects for each department using JOIN and GROUP BY.**
+70. **Use a JOIN to find employees in the Finance department who earn more than the average salary of all employees.**
+
+---
+
+### **Complex Subqueries**
+
+71. **Find employees whose salary is higher than the average salary in their department (correlated subquery).**
+72. **Find employees who earn more than the highest salary in the IT department.**
+73. **List employees whose salary is higher than the average salary of the entire company.**
+74. **Write a query to find employees who do not earn the same as the average salary in their department.**
+75. **Get the names of employees who have been assigned to more than one project (subquery).**
+76. **Retrieve all employees who do not have a bonus.**
+77. **Find all employees who are not assigned to any project (using NOT EXISTS).**
+78. **Get the employees who are assigned to both Project C and Project D.**
+79. **Use a subquery to find employees who have the highest salary in the HR department.**
+80. **Find all employees whose salary is greater than the salary of employee Charlie.**
+
+---
+
+### **Complex Joins and Subqueries**
+
+81. **Use a JOIN with a subquery to find employees in the HR department with salary greater than the average salary of all employees.**
+82. **Find the names of employees who have a bonus greater than the average bonus across all employees.**
+83. **Use a FULL OUTER JOIN to show employees and projects, even those without any assignment.**
+84. **Find employees working on projects where the department is either HR or Finance.**
+85. **Use a LEFT JOIN to find employees who are not assigned to any project, and then order them by hire date.**
+86. **Join Employees and Projects, then find the department with the highest total bonus payout.**
+87. **Join Employees, Projects, and Salaries, and find employees who are working on a project but do not have a bonus.**
+88. **Use a subquery to find employees who earn more than the average salary of employees in their department.**
+89. **Find employees who earn less than the average salary of all employees, using a subquery.**
+90. **Use a CTE to find employees with the lowest salary in each department.**
+
+---
+
+### **Window Functions and Advanced Analysis**
+
+91. **Use the DENSE_RANK() window function to rank employees by their salaries within each department.**
+92. **Write a query that shows the cumulative salary of employees as of their hire date.**
+93. **Use ROW_NUMBER() to find the first employee hired in each department.**
+94. **Use the LAG() function to find the salary difference between consecutive employees by hire date.**
+95. **Use the LEAD() function to find the next employee's salary for each employee.**
+96. **Rank employees by their salary and find those who are in the top 10% of earners using the PERCENT_RANK() function.**
+97. **Using NTILE() function, divide employees into 4 equal salary groups.**
+98. **Find the average salary of the employees over a rolling 6-month period.**
+99. **Use window functions to find the department with the maximum total salary across all employees.**
+100. **Write a query that ranks employees by their hire date using ROW_NUMBER().**
+
+---
+
+### **Advanced Data Modeling and Querying**
+
+101. **Write a recursive CTE to find all employees reporting to a specific manager (e.g., Alice).**
+102. **Use the CASE statement to categorize employees as "high income" or "low income" based on their salary.**
+103. **Find the difference in salary between the highest-paid and lowest-paid employees.**
+104. **Write a query to find employees who were hired in the first half of the year.**
+105. **Use the COALESCE function to replace null salary values with 0.**
+106. **Find the top 3 highest-paying projects and the employees working on them.**
+107. **Retrieve all employees who have worked on at least 2 projects using a GROUP BY.**
+108. **Write a query to find the department with the most employees.**
+109. **Write a query to retrieve employees who were hired in the last 6 months.**
+110. **Use a JOIN and window functions to find the top 3 earners in each department.**
+
+---
+
+### **Performance-Oriented Queries**
+
+111. **Create an index on the `Department` column of the Employees table.**
+112. **Write a query to find the slowest-running queries and optimize them.**
+113. **Write a query using EXPLAIN to analyze the performance of a JOIN operation.**
+114. **Use UNION to combine the results of two queries for different departments.**
+115. **Find duplicate records in the Employees table.**
+116. **Optimize a query that joins large datasets.**
+117. **Write a query using EXISTS to check for the existence of employees in specific projects.**
+118. **Use a query to identify unused indexes in the database.**
+119. **Write a query to calculate the average execution time of a query.**
+120. **Use the LIMIT clause to fetch the top 5 employees by salary.**
+
+---
+
+### **Complex Subqueries and CTEs**
+
+121. **Use a CTE to find the most recent project for each department.**
+122. **Find the highest salary in each department using a correlated subquery and GROUP BY.**
+123. **Use a CTE to calculate the running total of employee salaries by hire date.**
+124. **Use a subquery to identify employees working in multiple departments.**
+125. **Find the average salary for employees who have worked on more than one project.**
+126. **Write a query using a subquery to identify employees who earn more than all employees in the HR department.**
+127. **Create a CTE to list the projects and the number of employees assigned to each.**
+128. **Use a recursive CTE to list the hierarchical relationship of employees in terms of reporting structure.**
+129. **Create a subquery to find the department with the maximum total bonus payout.**
+130. **Write a query to find employees who do not belong to any department (using a subquery).**
+
+---
+
+### **Miscellaneous Advanced Queries**
+
+131. **Calculate the percent increase in salary from the previous year for each employee.**
+132. **Find employees who have worked in the same department for more than 5 years.**
+133. **Use a window function to calculate the moving average salary over a 3-month period.**
+134. **Write a query to delete duplicate rows from a table.**
+135. **Create a query to count how many employees have been promoted in the past year.**
+136. **Use a query to list all projects assigned to employees who have been promoted in the last year.**
+137. **Write a query to return the average salary increase of employees over their tenure.**
+138. **Create a query to identify employees working on all projects.**
+139. **Find departments that do not have any employees working in them.**
+140. **Create a query to list employees who have never received a bonus.**
+
+---
+
+### **Final Challenging Queries**
+
+141. **Calculate the average salary by department and identify which department has the highest average salary.**
+142. **Write a query to return the department with the least average salary.**
+143. **Find the top 5 highest salary employees in each department (use partitioning).**
+144. **Use the RANK function to rank employees by their salaries, showing only those with a salary greater than 7000.**
+145. **Create a recursive CTE to find a managerial hierarchy and calculate the number of employees under each manager.**
+146. **Write a query to fetch the most recent hire in each department.**
+147. **List all employees with a bonus higher than their base salary.**
+148. **Write a query to identify employees working on multiple projects.**
+149. **Create a CTE to find the employees who worked on all available projects.**
+150. **Find employees who are in the same department as the employee with the highest salary.**
+
+---
+
+This list covers a broad range of SQL topics, including joins, subqueries, aggregation, window functions, and performance optimization.
