@@ -1,8 +1,15 @@
-# 3. Write a Python program to check if a string is a palindrome.
-# 	Description: A palindrome is a word, phrase, or sequence that reads the same forward and backward.
-# 	Hint: Compare the string with its reverse (s == s[::-1]).
+# 3. Write a Python program to count the number of vowels in a string.
+def check_character():
+    char = input("Enter a single character: ").lower()  # Convert to lowercase for easy comparison
 
-num1=int(input("Enter the 1st number :"))
+    if len(char) != 1 or not char.isalpha():  # Ensure it's a single alphabetic character
+        print("Invalid input! Please enter a single alphabetic character.")
+        return
 
-num2=int(input("Enter the 2nd number :"))
+    if char in "aeiou":
+        print(f"'{char}' is a Vowel.")
+    else:
+        print(f"'{char}' is a Consonant.")
 
+# Run the function
+check_character()
