@@ -1,0 +1,174 @@
+Here are 150 programming questions organized by topic, as per your request:
+
+### 1-10: **String Related Questions**
+1. Write a Python program to reverse a string.
+2. Write a Python program to check if a string is a palindrome.
+3. Write a Python program to count the number of vowels in a string.
+4. Write a Python program to check if a string is an anagram of another string.
+5. Write a Python program to find the length of a string without using `len()`.
+6. Write a Python program to replace a substring within a string.
+7. Write a Python program to convert a string to lowercase.
+8. Write a Python program to find all the substrings of a string.
+9. Write a Python program to check if a string contains only digits.
+10. Write a Python program to find the index of the first occurrence of a character in a string.
+
+### 11-20: **Number Related Questions**
+11. Write a Python program to check if a number is prime.
+12. Write a Python program to find the factorial of a number.
+13. Write a Python program to check if a number is a perfect number.
+14. Write a Python program to print the Fibonacci sequence up to a given number.
+15. Write a Python program to check if a number is Armstrong (Narcissistic).
+16. Write a Python program to find the greatest common divisor (GCD) of two numbers.
+17. Write a Python program to find the least common multiple (LCM) of two numbers.
+18. Write a Python program to sum all even numbers from 1 to N.
+19. Write a Python program to calculate the power of a number (a^b).
+20. Write a Python program to find the number of digits in a number.
+
+### 21-30: **Basic Programming Questions**
+21. Write a Python program to print all numbers from 1 to 100.
+22. Write a Python program to find the sum of first N natural numbers.
+23. Write a Python program to find the reverse of a number.
+24. Write a Python program to print the multiplication table of a number.
+25. Write a Python program to find the largest of three numbers.
+26. Write a Python program to check if a number is even or odd.
+27. Write a Python program to find the square of a number without using the `**` operator.
+28. Write a Python program to print the first 10 multiples of a number.
+29. Write a Python program to remove duplicates from a list.
+30. Write a Python program to find the common elements between two lists.
+
+### 31-40: **Dictionary Related Questions**
+31. Write a Python program to create a dictionary and add key-value pairs.
+32. Write a Python program to check if a key exists in a dictionary.
+33. Write a Python program to merge two dictionaries.
+34. Write a Python program to get the value associated with a key from a dictionary.
+35. Write a Python program to remove a key from a dictionary.
+36. Write a Python program to update the value of a key in a dictionary.
+37. Write a Python program to find the sum of all values in a dictionary.
+38. Write a Python program to iterate through a dictionary and print all keys.
+39. Write a Python program to create a dictionary from two lists (keys and values).
+40. Write a Python program to find the key with the maximum value in a dictionary.
+
+### 41-50: **List Related Questions**
+41. Write a Python program to create a list of numbers from 1 to N.
+42. Write a Python program to add an element to the end of a list.
+43. Write a Python program to insert an element at a specific position in a list.
+44. Write a Python program to remove an element from a list by value.
+45. Write a Python program to check if a list is empty.
+46. Write a Python program to find the length of a list.
+47. Write a Python program to sort a list in ascending order.
+48. Write a Python program to reverse a list.
+49. Write a Python program to concatenate two lists.
+50. Write a Python program to find the largest element in a list.
+
+### 51-60: **Tuple Related Questions**
+51. Write a Python program to create a tuple.
+52. Write a Python program to count the number of occurrences of an element in a tuple.
+53. Write a Python program to find the index of an element in a tuple.
+54. Write a Python program to concatenate two tuples.
+55. Write a Python program to check if an element exists in a tuple.
+56. Write a Python program to unpack a tuple into variables.
+57. Write a Python program to convert a tuple to a list.
+58. Write a Python program to find the smallest element in a tuple.
+59. Write a Python program to find the length of a tuple.
+60. Write a Python program to remove duplicates from a tuple.
+
+### 61-70: **Set Related Questions**
+61. Write a Python program to create a set.
+62. Write a Python program to add an element to a set.
+63. Write a Python program to remove an element from a set.
+64. Write a Python program to check if a set is empty.
+65. Write a Python program to find the union of two sets.
+66. Write a Python program to find the intersection of two sets.
+67. Write a Python program to find the difference between two sets.
+68. Write a Python program to check if an element exists in a set.
+69. Write a Python program to find the symmetric difference between two sets.
+70. Write a Python program to convert a list to a set.
+
+### 71-85: **Sorting Algorithms Questions**
+71. Write a Python program to implement bubble sort.
+72. Write a Python program to implement insertion sort.
+73. Write a Python program to implement selection sort.
+74. Write a Python program to implement quick sort.
+75. Write a Python program to implement merge sort.
+76. Write a Python program to sort a list using bubble sort in descending order.
+77. Write a Python program to find the nth largest element in a list using bubble sort.
+78. Write a Python program to compare the performance of quick sort and merge sort.
+79. Write a Python program to sort a list of strings alphabetically using merge sort.
+80. Write a Python program to sort a list of tuples by the second element using bubble sort.
+81. 
+82. 
+83. 
+84. 
+85. 
+
+### 86-90: **Binary and Linear Search Questions**
+86. Write a Python program to implement linear search.
+87. Write a Python program to perform binary search on a sorted list.
+88. Write a Python program to find the index of an element using binary search.
+89. Write a Python program to count the occurrences of an element in a sorted list using binary search.
+90. Write a Python program to perform a binary search on a rotated sorted array.
+
+### 91-150: **Advanced Data Structures and Related Questions**
+91. Write a Python program to implement a stack using a list.
+92. Write a Python program to implement a queue using a list.
+93. Write a Python program to implement a circular queue.
+94. Write a Python program to implement a priority queue.
+95. Write a Python program to reverse a stack.
+96. Write a Python program to check if a string has balanced parentheses using a stack.
+97. Write a Python program to implement a basic linked list.
+98. Write a Python program to implement a doubly linked list.
+99. Write a Python program to reverse a linked list.
+100. Write a Python program to find the middle element of a linked list.
+101. Write a Python program to remove duplicates from a linked list.
+102. Write a Python program to merge two sorted linked lists.
+103. Write a Python program to detect a cycle in a linked list.
+104. Write a Python program to implement a stack using two queues.
+105. Write a Python program to implement a queue using two stacks.
+106. Write a Python program to find the maximum element in a stack.
+107. Write a Python program to implement depth-first search (DFS) in a graph.
+108. Write a Python program to implement breadth-first search (BFS) in a graph.
+109. Write a Python program to check if a binary tree is balanced.
+110. Write a Python program to find the height of a binary tree.
+111. Write a Python program to print all the nodes at a given level in a binary tree.
+112. Write a Python program to traverse a binary tree in preorder.
+113. Write a Python program to traverse a binary tree in inorder.
+114. Write a Python program to traverse a binary tree in postorder.
+115. Write a Python program to implement a binary search tree (BST).
+116. Write a Python program to insert a node into a binary search tree.
+117. Write a Python program to delete a node from a binary search tree.
+118. Write a Python program to search for a value in a binary search tree.
+119. Write a Python program to find the lowest common ancestor (LCA) in a binary search tree.
+120. Write a Python program to find the successor of a node in a binary search tree.
+121. Write a Python program to implement a red-black tree.
+122. Write a Python program to implement an AVL tree.
+123. Write a Python program to implement a heap (min-heap or max-heap).
+124. Write a Python program to implement a Trie data structure.
+125. Write a Python program to implement a graph using adjacency list.
+126. Write a Python program to find the shortest path in a graph using Dijkstra's algorithm.
+127. Write a Python program to implement a segment tree.
+128. Write a Python program to implement a Fenwick Tree (Binary Indexed Tree).
+129. Write a Python program to implement a disjoint set (union-find) data structure.
+130. Write a Python program to implement a skip list.
+131. Write a Python program to implement a stack using linked list.
+132. Write a Python program to implement a queue using linked list.
+133. Write a Python program to reverse a queue.
+134. Write a Python program to check if a queue is empty.
+135. Write a Python program to implement a deque.
+136. Write a Python program to implement an LRU cache.
+137. Write a Python program to implement a matrix using a 2D list.
+138. Write a Python program to transpose a matrix.
+139. Write a Python program to multiply two matrices.
+140. Write a Python program to check if two matrices are equal.
+141. Write a Python program to find the determinant of a matrix.
+142. Write a Python program to find the inverse of a matrix.
+143. Write a Python program to implement a sparse matrix.
+144. Write a Python program to implement a priority queue using a heap.
+145. Write a Python program to find the shortest path in a graph using Bellman-Ford algorithm.
+146. Write a Python program to implement a self-balancing binary search tree.
+147. Write a Python program to implement a stack using a priority queue.
+148. Write a Python program to simulate a queue using two stacks.
+149. Write a Python program to check if a binary tree is a binary search tree.
+150. Write a Python program to implement a Huffman coding algorithm.
+
+These questions cover a wide range of basic, intermediate, and advanced topics in Python programming related to data structures and algorithms.
+
